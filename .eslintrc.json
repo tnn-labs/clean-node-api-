@@ -1,0 +1,53 @@
+{
+  "env": {
+    "es2019": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "eslint-plugin-import-helpers",
+    "prettier"
+  ],
+  "rules": {
+    "max-classes-per-file": "off",
+    "no-promise-executor-return": "off",
+    "no-useless-constructor": 0,
+    "@typescript-eslint/no-useless-constructor": 0,
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "@typescript-eslint/no-explicit-any": "off",
+    "class-methods-use-this": "off",
+    "no-shadow": "off",
+    "import/prefer-default-export": "off",
+    "no-console": "warn",
+    "import/extensions": [
+      "error",
+      "ignorePackages", 
+      {"ts": "never"}
+    ],
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": ["module", "/^@shared/", ["parent", "sibling", "index"]],
+        "alphabetize": { "order": "asc", "ignoreCase": true}
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
