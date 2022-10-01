@@ -1028,10 +1028,10 @@
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.3.tgz#908bfb113419fd6a42273674c00994d40902c165"
   integrity sha512-dDZH/tXzwjutnuk4UacGgFRwV+JSLaXL1ikvidfJprkb7L9Nx1njcRHHmi3Dsvt7pgqqTEeucQuOrWHPFgzVHA==
 
-"@types/validator@^13.7.5":
-  version "13.7.5"
-  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.7.5.tgz#96ad8c50d441c8c86a639efccc4d8d9d5d9cd5ea"
-  integrity sha512-9rQHeAqz6Jw3gDhttkmWetoriW5FPbxylv/6h6mXtaj2NKRcOvOmvfcswVdLVpbuy10NrO486K3lCoLgoIhiIA==
+"@types/validator@^13.7.7":
+  version "13.7.7"
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.7.7.tgz#e87cf34dd08522d21acf30130fd8941f433b81b5"
+  integrity sha512-jiEw2kTUJ8Jsh4A1K4b5Pkjj9Xz6FktLLOQ36ZVLRkmxFbpTvAV2VRoKMojz8UlZxNg/2dZqzpigH4JYn1bkQg==
 
 "@types/webidl-conversions@*":
   version "6.1.1"
